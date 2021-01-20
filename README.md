@@ -32,40 +32,96 @@ The detailed description of each attribute below is given in the Record Layout f
 
 The H-1B dataset from OFLC contained 40 attributes and 528,147 instances. The attributes are in the table below. The attributes highlighted bold were removed during the data cleaning process.
 
-1) CASENUMBER 
+1) CASENUMBER
+
 2)CASESUBMITTED 
-3)DECISIONDATE 4)VISACLASS 
+
+3)DECISIONDATE 
+
+4)VISACLASS 
+
 5)EMPLOYMENTSTARTDATE 
+
 6)EMPLOYMENTENDDATE 
-7)EMPLOYERNAME 8)EMPLOYERADDRESS 
+
+7)EMPLOYERNAME 
+
+8)EMPLOYERADDRESS 
+
 9)EMPLOYERCITY 
+
 10)EMPLOYERSTATE 
+
 11)EMPLOYERPOSTALCODE 
-12)EMPLOYERCOUNTRY 13)EMPLOYERPROVINCE 
+
+12)EMPLOYERCOUNTRY 
+
+13)EMPLOYERPROVINCE 
+
 14)EMPLOYERPHONE 
+
 15)EMPLOYERPHONEEXT 
+
 16)AGENTATTORNEYNAME 
+
 17)AGENTATTORNEYCITY 
+
 18)AGENTATTORNEYSTATE 
+
 19)JOBTITLE 
+
 20)SOCCODE 
+
 21)SOCNAME 
-22)NAICSCODE 23)TOTALWORKERS 
+
+22)NAICSCODE 
+
+23)TOTALWORKERS 
+
 24)FULLTIMEPOSITION 
-25)PREVAILINGWAGE 26)PWUNITOFPAY 
-27)PWSOURCE 28)PWSOURCEYEAR 29)PWSOURCEOTHER 30)WAGERATEOFPAYFROM 31)WAGERATEOFPAYTO 32)WAGEUNITOFPAY 
-33)H-1BDEPENDENT 34) WILLFULVIOLATOR 
+
+25)PREVAILINGWAGE 
+
+26)PWUNITOFPAY 
+
+27)PWSOURCE 
+
+28)PWSOURCEYEAR 
+
+29)PWSOURCEOTHER 
+
+30)WAGERATEOFPAYFROM 
+
+31)WAGERATEOFPAYTO 
+
+32)WAGEUNITOFPAY 
+
+33)H-1BDEPENDENT 
+
+34) WILLFULVIOLATOR 
+
 35) WORKSITECITY 
+
 36)WORKSITECOUNTY 
-37)WORKSITESTATE 38)WORKSITEPOSTALCODE 39)ORIGINALCERTDATE 40)CASESTATUS* - __Class Attribute - To be predicted
+
+37)WORKSITESTATE 
+
+38)WORKSITEPOSTALCODE 
+
+39)ORIGINALCERTDATE 
+
+40)CASESTATUS* - __Class Attribute - To be predicted
 
 3.1) Class Attribute
 
 For the H-1B Dataset our class attribute is ‘CASESTATUS’. There are 4 categories of Case Status. The values of CaseStatus attributes are:
 
 1) Certified 
+
 2) Certified_Withdrawn 
+
 3) Withdrawn 
+
 4) Denied
 
 Certified means the LCA of an employer was approved. Certified Withdrawn means the case was withdrawn after it was certified by OFLC. Withdrawn means the case was withdrawn by the employer. Denied means the case was denied OFLC.
