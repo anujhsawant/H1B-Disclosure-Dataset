@@ -1,8 +1,8 @@
-# H1B-Disclosure-Dataset
+H1B-Disclosure-Dataset
 
 1) Data Background
 
-In the Data Mining class, we had the opportunity to analyze data by performing data mining algorithms to a dataset. Our dataset is from Office of Foreign Labor Certification (OFLC). OFLC is a division of the U.S. Department of Labor. The main duty of OFLC is to assist the Secretary of Labor to enforce part of the Immigration and Nationality Act (INA), which requires certain labor conditions exist before employers can hire foreign workers. 
+The dataset is from Office of Foreign Labor Certification (OFLC). OFLC is a division of the U.S. Department of Labor. The main duty of OFLC is to assist the Secretary of Labor to enforce part of the Immigration and Nationality Act (INA), which requires certain labor conditions exist before employers can hire foreign workers. 
 H-1B is a visa category in the United States of America under the INA, section 101(a)(15)(H) which allows U.S. employers to employ foreign workers. The first step employer must take to hire a foreign worker is to file the Labor Condition Application. In this project, we will analyze the data from the Labor Condition Application.
 
 1.1) Introduction to H1B Dataset
@@ -13,9 +13,9 @@ The Labor Condition Application (LCA) is a document that a perspective H-1B empl
 
 1.2) Goal of the Project
 
-Our goal for this project is to predict the case status of an application submitted by the employer to hire non-immigrant workers under the H-1B visa program. Employer can hire non-immigrant workers only after their LCA petition is approved. The approved LCA petition is then submitted as part of the Petition for a Non-immigrant Worker application for work authorizations for H-1B visa status.
+The goal for this project is to predict the case status of an application submitted by the employer to hire non-immigrant workers under the H-1B visa program. Employer can hire non-immigrant workers only after their LCA petition is approved. The approved LCA petition is then submitted as part of the Petition for a Non-immigrant Worker application for work authorizations for H-1B visa status.
 
-We want to uncover insights that can help employers understand the process of getting their LCA approved. We will use WEKA software to run data mining algorithms to understand the relationship between attributes and the target variable.
+Exploratory Data Analysis (EDA) was done to uncover insights that can help employers understand the process of getting their LCA approved. 
 
 2)Dataset Information:
 
